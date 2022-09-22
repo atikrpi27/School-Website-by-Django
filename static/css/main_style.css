@@ -1,0 +1,370 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bodywrap{
+    overflow-x: hidden !important;
+}
+
+body {
+    background-image: url('../img/background.png');
+    font-family: Noto Sans Bengali;
+  }
+
+.bodywrap{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    background-color: #ffffff;
+    width: 960px;
+    border-left: 20px solid #ffffff;
+    border-right: 20px solid #ffffff;
+    border-radius: 0px;
+    box-shadow: 0px 0px 15px 0px #737272;
+}
+
+.header{
+    height: 220px;
+    margin: 0 0 0 0;
+    width: 920px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    background: #06A3FF;
+    background: -webkit-linear-gradient(#FFFFFF, #06A3FF);
+    background: -o-linear-gradient(#FFFFFF, #06A3FF);
+    background: -moz-linear-gradient(#FFFFFF, #06A3FF);
+    background: linear-gradient(#FFFFFF, #06A3FF);
+}
+
+.headerLogo{
+    text-align: left;
+    top: 35px;
+    left: 50px;
+    position: absolute;
+}
+
+.headerTitle{
+    text-align: left;
+    top: 135px;
+    left: 50px;
+    position: absolute;
+}
+
+.headerTitleText{
+    font-family: Noto Sans Bengali;
+    font-weight: bold;
+    color: white;
+    text-shadow: 2px 2px 2px #000000, 3px 3px 2px #000000;
+}
+
+nav{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navCon{
+    background: linear-gradient(#F0F0F0, #FFFFFF);
+}
+
+.dropdown a{
+    color: #000000;
+}
+
+.navbar ul{
+    width: 100%;
+    border-top: 1px dotted #CCCCCC;
+    border-bottom: 1px dotted #CCCCCC;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.navbar ul li a{
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-size: 14px;
+    font-weight:600;
+    border-right:1px dotted #cccccc;
+}
+
+.navbar ul li:hover{
+    background-color: #06A3FF;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover{
+    color: #ffffff !important;
+    background-color: #06A3FF;
+    border-radius: 5px;
+}
+
+.dropdown-menu {
+    min-width: 12rem !important;
+}
+
+.sec-1-left{
+    background: linear-gradient(#F0F0F0, #FFFFFF);
+    border: 1px dotted #CCCCCC;
+    padding: 5px;
+}
+
+.sec-2-left, .sec-3-left, .sec-4-left{
+    background: linear-gradient(#F0F0F0, #FFFFFF);
+    border: 1px dotted #CCCCCC;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.heading{
+    font-weight: bold;
+    font-size: 15px;
+    color: #000000;
+}
+
+.sec-1-left a{
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: blueviolet;
+    margin-left: 30px;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+.sec-1-left a:hover{
+    color: rgb(34, 34, 255);
+}
+
+.sec-1-left input, .sec-2-left input, .sec-3-left input, .sec-4-left input{
+    float: right;
+    padding-top: 3px !important;
+    font-family: Noto Sans Bengali;
+    font-size: 10pt;
+    font-weight: normal;
+    text-align: center;
+    color: #000000;
+    cursor: pointer;
+    padding: 0px 0px 0px 0px;
+    height: 25px;
+    width: 50px;
+    border: 1px solid #CCCCCC;
+    background-color: #CCCCCC;
+}
+
+.headding{
+    font-family: Noto Sans Bengali;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: #06A3FF;
+    color: #FFFFFF;
+    padding: 5px 0px 5px 7px;
+}
+
+.teacherImg{
+    padding-top: 7px;
+}
+
+.teacherImg span{
+    display: block;
+    font-family: Noto Sans Bengali;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.notice a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+.sec-3-left p{
+    margin-top: 6px !important;
+}
+
+.sec-3-left p,
+.sec-3-left a{
+    text-decoration: none;
+    color: #000000;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.list ul{
+    list-style-type: none;
+    padding-left: 10px;
+}
+
+.list ul li a{
+    font-family: Noto Sans Bengali;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #000000
+}
+
+.list ul li a:hover{
+    color: #24a1e9;
+}
+
+.list ul li a i,
+.bodyList ul li a i{
+    font-size: 8px;
+    font-weight: bold;
+    color: rgb(247, 34, 34);
+    padding-right: 5px;
+}
+
+.row .mbl{
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+.mbl .sec-5-left-left {
+    width: 48%;
+}
+
+.mbl .sec-5-left-right {
+    width: 48%;
+}
+
+.section-5, 
+.sec-5{
+    width: 100%;
+    overflow: hidden;
+    padding-top: 15px;
+}
+
+.sec-5-left-left,
+.sec-5-left-right{
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    margin-bottom: 15px;
+}
+
+.sec-5-left-left p,
+.sec-5-left-right p{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Noto Sans Bengali;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px dotted #CCCCCC;
+}
+
+.sec-5-left-left img,
+.sec-5-left-right img{
+    padding-left: 10px;
+}
+
+.bodyList ul{
+    list-style-type: none;
+    margin: 0;
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.footerImg img {
+    width: 100%;
+}
+
+.footer-wrapper{
+    background-color: #EBEBEB;
+}
+
+.footerBody-wrapper{
+    position: relative;
+    margin: 0 auto;
+    padding: 0;
+    text-align: left;
+    background-color: #ffffff;
+    width: 960px;
+    border-radius: 0px;
+    box-shadow: 0px 12px 15px 0px #737272;
+}
+
+.footer-menu ul {
+    float: left;
+    width: 100%;
+    margin-bottom: 12px;
+    list-style-type: none;
+}
+
+.footer-menu ul li:first-child {
+    border-left: solid 1px #eee;
+}
+
+.footer-menu ul li{
+    float: left;
+    border-left: solid 1px #ccc;
+    list-style: none;
+}
+
+.footer-menu ul a{
+    font-size: 14px;
+    font-family: Noto Sans Bengali;
+    color: #333;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.footer-menu ul li a:hover {
+    color: #fff;
+    background: #9F9F9F;
+    border-radius: 3px;
+}
+
+.footer p{
+    float: left;
+    font-size: 12px;
+    font-family: Noto Sans Bengali;
+    margin: 0 20px 0 40px;
+}
+
+.footer a {
+    color: #6F716C;
+    font-size: 12px;
+    font-family: Noto Sans Bengali;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 576px) {
+.sec-3-left input{
+    float:left !important;
+}
+
+.m-responsive-img{
+    width: 25% !important;
+}
+.m-responsive-list{
+    width: 75% !important;
+}
+
+.mbl-res{
+    width: 40% !important;
+}
+
+.mbl-res-img{
+    margin-left: 100px;
+}
+
+.info img {
+    width: 30% !important;
+}
+
+.footer-left{
+    width:37% !important;
+}
+
+.footer-middle{
+    width:25% !important;
+}
+
+.footer-right{
+    width:38% !important;
+}
+
+}
